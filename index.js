@@ -11,10 +11,15 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+// GET /places
+app.get('/', (req, res) => {
+    res.render('places/index')
+})
+
+
 app.get('*', (req, res) => {
     res.render('error404')
 })
-
 
 app.listen(process.env.PORT)
 
