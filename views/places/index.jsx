@@ -16,7 +16,6 @@ function index (data) {
             </div>
         )
     })
-        
         return (
         <Def>
             <main>
@@ -24,6 +23,7 @@ function index (data) {
                 <div className="row">
                     {placesFormatted}
                 </div>
+                <a href="/places/new">NEW</a>
             </main>
         </Def>
     )
