@@ -1,15 +1,13 @@
-places = [{
+module.exports = [{
     name: 'H-Thai-ML',
     city: 'Seattle',
     state: 'WA',
     cuisines: 'Thai, Pan-Asian',
-    pic: '/images/erol-ahmed--N2Jdazh03Y-unsplash.jpg'
+    pic: '/images/h-thai-ml-tables.jpg'
 }, {
     name: 'Coding Cat Cafe',
     city: 'Phoenix',
     state: 'AZ',
     cuisines: 'Coffee, Bakery',
-    pic: '/images/milada-vigerova-5fj-ShvSEnc-unsplash.jpg'
+    pic: '/images/coffee-cat.jpg'
 }]
-
-module.exports = places
