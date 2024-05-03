@@ -6,9 +6,9 @@ function index (data) {
         return (
             <div className="col-sm-6">
                 <h2>
-                    <a href={`/places/${index}`} >
-                        {place.name}
-                    </a>
+                <a href={`/places/${index}`} >
+                    {place.name}
+                </a>
                 </h2>
                 <p className="text-center">
                     {place.cuisines}
@@ -20,18 +20,16 @@ function index (data) {
             </div>
         )
     })
-        return (
+    return (
         <Def>
             <main>
-                <h1>Places to Rant or Rave About</h1>
+                <h1>Ramen-Rant</h1>
                 <div className="row">
                     {placesFormatted}
                 </div>
-                <a href="/places/new">NEW</a>
             </main>
         </Def>
     )
 }
 
 module.exports = index
-
